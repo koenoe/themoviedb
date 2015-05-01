@@ -33,13 +33,7 @@ Gem::Specification.new do |s|
                       "lib/themoviedb/find.rb",
                       "lib/themoviedb/version.rb"
                     ]
-  s.test_files    = [
-                      "spec/movie_spec.rb",
-                      "spec/tv_spec.rb",
-                      "spec/company_spec.rb",
-                      "spec/person_spec.rb",
-                      "spec/find_spec.rb"
-                    ]
+
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency 'httparty'
